@@ -4,21 +4,22 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-
-	<script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
-  <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
-
+  <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+     <script src="https://rawgit.com/Ctrl-Alt-Zen/aframe-mobile-controls/master/components/twoway-motion/twoway-motion.js"></script>
   <body>
-      <a-scene>
-        
-         <a-assets>
-   <img id="skyLeaves" src="https://filipo203.github.io/aframeforest/assets/autumn_forest_02.jpg" crossorigin="anonymous">
-   <img id="groundTexture" src="https://filipo203.github.io/aframeforest/floor_leaves.jpg" crossorigin="anonymous">
-   <img id="wik01" src="https://filipo203.github.io/aframeforest/assets/wik_forest.jpg" />
-         </a-assets>
-         
-         <a-sky id="background" src="#skyLeaves" theta-length="90" radius="30" position="0 -13.82849 0" material="" geometry="" scale="-2 2 2"></a-sky>
-  
-      </a-scene>
+ 
+  <a-scene>
+ 
+   <a-assets>
+      <img id="skyLeaves" src="https://filipo203.github.io/aframe-environment/assets/autumn_forest_02.jpg" crossorigin="anonymous">
+      <img id="groundTexture" src="https://filipo203.github.io/aframe-environment/floor_leaves.jpg" crossorigin="anonymous">
+      <img id="wik01" src="https://filipo203.github.io/aframe-environment/assets/wik_forest.jpg" />
+   </a-assets>
+ 
+ <a-entity geometry="primitive: cylinder" scale="53.69 1 54.64" material="color: #d4b996ff; src:"groundTexture"=""></a-entity>
+    <a-sky id="background" src="#skyLeaves" theta-length="90" radius="30" position="0 -13.82849 0" material="" geometry="" scale="-2 2 2"></a-sky>
+<a-curvedimage src="#wik01" radius="5.7" theta-length="180" height="9" position="0 8.3 14.9" rotation="0 -90 0" scale="0.48 0.88 0.62" material="" geometry="height: 8.33; radius: 9.09; thetaLength: 160" id="forestInfo"></a-curvedimage>
+  </a-scene>
+     
   </body>
 </html>
