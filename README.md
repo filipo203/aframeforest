@@ -13,9 +13,9 @@
       <a-scene>
         
          <a-assets>
-   <img id="skyLeaves" src="filipo203.github.io/aframeforest/assets/autumn_forest_02.jpg" crossorigin="anonymous">
-   <img id="groundTexture" src="filipo203.github.io/aframeforest/floor_leaves.jpg" crossorigin="anonymous">
-   <img id="wik01" src="filipo203.github.io/aframeforest/assets/wik_forest.jpg" />
+   <img id="skyLeaves" src="filipo203.github.io/aframeforest/assets/autumn_forest_02.jpeg" crossorigin="anonymous">
+   <img id="groundTexture" src="filipo203.github.io/aframeforest/floor_leaves.jpeg" crossorigin="anonymous">
+   <img id="wik01" src="filipo203.github.io/aframeforest/assets/wik_forest.jpeg" />
          </a-assets>
   
       </a-scene>
